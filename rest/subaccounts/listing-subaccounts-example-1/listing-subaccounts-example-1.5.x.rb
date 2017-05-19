@@ -9,5 +9,5 @@ auth_token = 'your_auth_token'
 
 # Get an object from its sid. If you do not have a sid,
 # check out the list resource examples on this page
-@account = @client.api.v2010.accounts("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch
+@account = @client.api.accounts("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch
 puts @account.status
